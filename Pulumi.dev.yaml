@@ -1,0 +1,2 @@
+config:
+  mock-service:endpoint: http://localhost:8000
