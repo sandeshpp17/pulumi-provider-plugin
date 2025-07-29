@@ -3,7 +3,7 @@ import table_resource
 
 # Create the table resource
 user_table = table_resource.Table("user-table", 
-    table_name="anuj",
+    table_name="usertable",
     size=100,
     read_only=False
 )
