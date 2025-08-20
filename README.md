@@ -20,8 +20,8 @@ This repository demonstrates using [Pulumi](https://www.pulumi.com/) and a custo
 ### 1. Clone the Repo
 
 ```bash
-git clone https://gitlab.com/your-org/iac.git
-cd iac
+git clone https://github.com/sandeshpp17/pulumi-provider-plugin
+cd pulumi-provider-plugin 
 ```
 
 ### 2. Install Pulumi CLI
