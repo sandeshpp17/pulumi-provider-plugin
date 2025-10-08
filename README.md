@@ -67,7 +67,7 @@ You should see logs from Flask indicating it’s listening on `http://localhost:
 Tell Pulumi where the backend API runs:
 
 ```bash
-pulumi config set mock-service:endpoint http://localhost:8000
+pulumi config set mock-service:endpoint http://serverip:8000
 ```
 
 ### 7. Deploy Your Infrastructure
@@ -85,7 +85,7 @@ Approve when prompted. On success, your resource will be created via HTTP POST t
 See current tables in the mock service with:
 
 ```bash
-curl -X GET http://localhost:8000/table
+curl -X GET http://<serverip>:8000/table
 ```
 
 ## Common Commands
